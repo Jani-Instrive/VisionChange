@@ -1,0 +1,412 @@
+.FrameRootRootRoot {
+  width: 100vw;
+  height: 100vh;
+  margin: auto;
+  position: relative;
+  font-family: Open Sans;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-size: cover;
+  background-position: center;
+  background-image: url("https://file.rendit.io/n/o431P31LQmRF2uCfTqUL.png");
+  
+}
+.navBar {
+  width: 98vw;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: stretch;
+  align-items: center;
+  margin: auto;
+  margin-top: 8;
+}
+.MainHero {
+  width: 95vw;
+  height: 100%;
+  max-width: 1536px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: auto;
+}
+.proxteraLogoWhite {
+  width: 67px;
+  height: 70px;
+}
+.navButtons {
+  width: 453px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 23.5px 0px;
+}
+.RightContainer {
+  margin: auto;
+  height: 100vh;
+  min-width: 900px;
+  position: absolute;
+  right: 0px;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content: flex-end;
+}
+.LeftContainer {
+  max-width: 768px;
+  top: 150px;
+  left: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: space-between;
+  text-align:left;
+  z-index: 1;
+}
+.RedSignColumn{
+  height: 36.7px;
+  gap: 0px;
+  width: 120px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 14.4px 40px 15.6px 40px;
+  border-radius: 30px;
+  background-color: #c70d3a;
+}
+.SignColumn{
+  gap: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  margin-bottom: 32px;
+}
+.SignText{
+  min-width: 168px;
+  color: #ffffff;
+  font-size: 24px;
+  font-family: Open Sans;
+}
+.HeaderText1 {
+  width: 676px;
+  align-self: center;
+  color: #ffffff;
+  font-size: 48px;
+  font-weight: 700;
+  font-family: Open Sans;
+  line-height: 90px;
+}
+.paragraph {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 32px;
+  font-family: Open Sans;
+  line-height: 40px;
+  white-space: pre-wrap;
+}
+.flexColumn1 {
+  gap: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* box-shadow: 0px 15px 10px 0px rgba(199, 13, 58, 0.15); */
+}
+.RedSignColumn {
+  gap: 0px;
+  min-width: 120px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 14.4px 40px 16.6px 40px;
+  border-radius: 30px;
+  background-color: #c70d3a;
+}
+.Left_Bottom_Columns {
+  position: relative;
+  gap: 0px;
+  min-widt:10px;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: Open Sans;
+  align-items: center;
+}
+.Left_Bottom_Columns2{
+  left: 194px;
+  top: 0px;
+  position: absolute;
+  gap: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Left_Bottom1 {
+  position: relative;
+  display: flex;
+  gap: 120px;
+  flex-direction: row;
+  justify-content: left;
+  margin-top: 30px;
+  align-items: left;
+  /* ////border: 1px solid transparent; */
+}
+.Left_Bottom2 {
+  max-width: 150px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 0px 0px 179px;
+  /* ////border: 1px solid transparent; */
+}
+
+.text2 {
+  max-width: 168px;
+  height: 36.7px;
+  color: #ffffff;
+  font-size: 24px;
+  font-family: Open Sans;
+}
+
+.text3 {
+  max-width: 136px;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 24px;
+  font-family: Open Sans;
+  text-align: center;
+}
+.flexColumn3 {
+  left: 194px;
+  top: 0px;
+  position: absolute;
+  gap: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* box-shadow: 0px 4px 4px 0px rgba(255, 255, 255, 0.4); */
+}
+.text5 {
+  max-width: 166px;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 24px;
+  font-family: Open Sans;
+  text-align: center;
+}
+.group32 {
+  width: 150px;
+  position: relative;
+  gap: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 0px 0px 179px;
+}
+.FlexColumn5 {
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  gap: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* box-shadow: 0px 4px 4px 0px rgba(255, 255, 255, 0.4); */
+}
+.text7 {
+  max-width: 191px;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 24px;
+  font-family: Open Sans;
+  text-align: center;
+}
+.text9 {
+  max-width: 150px;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 24px;
+  font-family: Open Sans;
+  text-align: center;
+}
+
+.NavDiv {
+  width: 95vw;
+  /* ////border: 1px solid transparent; */
+  margin-top: 10px;
+  max-width: 1536px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: stretch;
+  align-items: center;
+  margin: auto;
+  margin-top: 8px;
+  margin-bottom: 8;
+  font-family: Open Sans;
+}
+.NavButtons {
+  width: 453px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 23.5px 0px;
+  font-family: Open Sans;
+}
+.text4 {
+  color: #ffffff;
+  font-size: 48px;
+  font-weight: 700;
+  font-family: Open Sans;
+  white-space: nowrap;
+}
+.header1{
+  text-align: left;
+  color: #ffffff;
+  font-size: 48px;
+  font-weight: 700;
+  font-family: Open Sans;
+  padding-top: 70px;
+}
+
+@media screen and (min-width: 280px) and (max-width: 600px) {
+  
+  .FrameRootRootRoot {
+    width: 100vw;
+    height:100vh;
+  }
+  iframe{
+    width:100%;
+    height:60%;
+    margin:auto;
+  }
+  .header1{
+    font-size: 36px;
+    font-weight: 500;
+    padding-top: 70px;
+  }
+  .SignTExt{
+    min-width: 168px;
+  }
+  .text9{
+    width: 150px;
+  }
+  .MainHero {
+    width: 100%;
+  }
+  .LeftContainer {
+    min-height: 400px;
+    padding-left:12px;
+    padding-right:12px;
+    position: initial;
+  }
+  .Left_Bottom1 {
+    display: none !important;
+  }
+  .RightContainer {
+    min-width:  90vw;
+  }
+  .paragraph {
+    font-size: 20px;
+    width: 100%;
+    text-align: left;
+    line-height: 35px;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+  
+  .FrameRootRootRoot {
+    width: 100vw;
+    height:98vh;
+  }
+  iframe{
+    width:100%;
+    height:100%;
+    margin:auto;
+  }
+  .header1{
+    font-size: 50px;
+    font-weight: 500;
+    padding-top: 70px;
+  }
+  .MainHero {
+    width: 90%;
+  }
+  .LeftContainer {
+    width: 100%;
+    height:100vh;
+  }
+  .Left_Bottom1 {
+     display: none !important; 
+  }
+  .RightContainer {
+    min-width:  90vw;
+    /* height: calc(99vh - 150px); */
+    height:100vh;
+    padding-bottom:12px;
+    /* ////border: 1px solid transparent; */
+  }
+  .paragraph {
+    font-size: 35px;
+    font-weight: 50;
+    width: 80%;
+    line-height: 60px;
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+  
+  .FrameRootRootRoot {
+    /* ////border: 1px solid transparent; */
+    width: 100vw;
+    height:98vh;
+  }
+  iframe{
+    width:100%;
+    height:80%;
+    margin:auto;
+  }
+  .header1{
+    font-size: 30px;
+    font-weight: 500;
+    padding-top: 70px;
+  }
+  .MainHero {
+    width: 90%;
+  }
+  .LeftContainer {
+    width: 100%;
+    /* height: calc(99vh - 150px); */
+    /* height:100vh; */
+
+  }
+
+  .RightContainer {
+    min-width:  90vw;
+    /* height: calc(99vh - 150px); */
+    /* ////border: 1px solid transparent; */
+  }
+  .paragraph {
+    font-size: 25px;
+    font-weight: 50;
+    width: 80%;
+    line-height: 30px;
+    text-align: left;
+  }
+}

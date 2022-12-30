@@ -1,0 +1,98 @@
+.MainContainer{
+  height: 819px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background:white;
+}
+.MiniGroup-page2{
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.LeftDiv-page2{
+  width: 1370px;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: flex-end;
+  align-items: center;
+  margin: 0px 73.5px 64px 0px;
+}
+.RightDiv-page2 {
+  width: 1528px;
+  gap: 32px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 32px 0px;
+  border-radius: 20px;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.02);
+}
+.FlexColumn-page2{
+    height: 56px;
+    gap: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px;
+    border-width: 2px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #02383c;
+}
+.Paragraph {
+  width: 899px;
+  height: 507px;
+  color: #1a1831;
+  font-size: 24px;
+  font-family: Roboto;
+  line-height: 55px;
+}
+.text1{
+    margin: 0px 0px 64px 0px;
+    color: #102636;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: Open Sans;
+    line-height: 60px;
+    white-space: nowrap;
+}
+.text2-page2{
+    align-self: flex-start;
+    color: #1a1831;
+    font-size: 32px;
+    font-family: Open Sans;
+    white-space: pre-wrap;
+}
+.text3{
+    font-size: 32px;
+    font-family: Open Sans;
+    white-space: nowrap;
+}
+.text4{
+    color: #1a1831;
+    font-size: 32px;
+    font-family: Open Sans;
+    white-space: nowrap;
+}
+.Page2Group13{
+    width: 60px;
+  position: relative;
+  gap: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Image1 {
+  width: 537px;
+  height: 507px;
+}

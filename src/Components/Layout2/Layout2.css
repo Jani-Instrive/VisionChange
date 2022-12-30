@@ -1,0 +1,226 @@
+.Container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px 100px;
+  }
+  .createAndConsolidate {
+    margin: 0px 0px 63px 0px;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: Open Sans;
+    white-space: nowrap;
+  }
+  .Block1 {
+    width: 1273px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px 60px 0px;
+  }
+  .Block2 {
+    height: 37px;
+    gap: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0px 20px 0px 0px;
+    padding: 10px 11.5px 9px 12px;
+    border-width: 2px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #02383c;
+  }
+  .image1 {
+    width: 32.5px;
+    height: 37px;
+  }
+  .group14 {
+    height: 60px;
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0px 104px 0px 0px;
+  }
+  .text1 {
+    align-self: flex-end;
+    margin: 0px 3px 0px 0px;
+    color: #1a1831;
+    font-size: 32px;
+    font-family: Open Sans;
+    white-space: nowrap;
+  }
+  .line {
+    width: 349px;
+    height: 3px;
+  }
+  .flexColumn2 {
+    height: 37px;
+    gap: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0px 20px 0px 0px;
+    padding: 9px 9.04px 10px 10px;
+    border-width: 2px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #02383c;
+  }
+  .image2 {
+    width: 37px;
+    height: 37px;
+  }
+  .text2 {
+    width: 165px;
+    margin: 0px 97px 0px 0px;
+    color: #1a1831;
+    font-size: 32px;
+    font-family: Open Sans;
+  }
+  .group15 {
+    width: 60px;
+    position: relative;
+    gap: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 20px 0px 0px;
+  }
+  .idcard {
+    width: 36px;
+    height: 36px;
+    left: 12px;
+    top: 12px;
+    position: absolute;
+  }
+  .element7 {
+    width: 56px;
+    height: 56px;
+    position: relative;
+    border-width: 2px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #02383c;
+  }
+  .text3 {
+    color: #1a1831;
+    font-size: 32px;
+    font-family: Open Sans;
+    white-space: nowrap;
+  }
+  .flexRow1 {
+    gap: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 34px 34.8px 26px 30.3px;
+    border-radius: 20px;
+    background-image: linear-gradient(301deg, #1a1831 0%, #02383c 165%);
+  }
+  .flexColumn4 {
+    height: 100vh;
+    width:10%;
+    max-width:1536px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 3px 0px;
+  }
+  .flexColumn5 {
+    width: 89px;
+    position: relative;
+    gap: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px 63px 0px;
+    padding: 0px 0px 0px 20.7px;
+  }
+  .flexColumn6 {
+    width: 89px;
+    position: relative;
+    gap: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px 50px 0px;
+    padding: 0px 0px 0px 20.7px;
+  }
+  .flexColumn7 {
+    width: 89px;
+    position: relative;
+    gap: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 0px 20.7px;
+  }
+  .flexRow2 {
+    gap: 0.82px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .flexColumn8 {
+    height: 100vh;
+    width:50%
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 16px 0px;
+  }
+  .paragraph {
+    width: 666px;
+    color: #ffffff;
+    font-size: 24px;
+    font-family: Open Sans;
+    line-height: 50px;
+  }
+  .paragraph1 {
+    width: 666px;
+    color: #ffffff;
+    font-size: 24px;
+    font-family: Open Sans;
+    line-height: 55px;
+  }
+  .paragraph2 {
+    width: 620px;
+    align-self: flex-start;
+    color: #ffffff;
+    font-size: 24px;
+    font-family: Open Sans;
+    line-height: 55px;
+  }
+  .flexColumn9 {
+    height: 522px;
+    gap: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 9px 430px 9px 15.2px;
+    background-size: cover;
+    background-image: url("https://file.rendit.io/n/R3LHF7Vi6GhyJOT3wjZi.png");
+  }
+  .image6 {
+    width: 212px;
+    height: 507px;
+  }
+  

@@ -1,0 +1,24 @@
+.NavDiv{
+    /* background-color:transparent;
+    font-family: Open Sans;
+    gap:20px */
+    width: 95vw;
+    border:0px solid transparent;
+    max-width: 1536px;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-self: stretch;
+    align-items: center;
+    margin: auto;
+    font-family: Open Sans;
+}
+.NavButtons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: r;
+    gap: 24px;
+    font-family: Open Sans;
+}

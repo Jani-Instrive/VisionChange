@@ -1,0 +1,30 @@
+.MainBox {
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+    position: relative;
+    font-family: Open Sans;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-size: cover;
+    background-position: center;
+  background-image: url("https://file.rendit.io/n/o431P31LQmRF2uCfTqUL.png");
+}
+.MainDiv{
+    width: 95vw;
+    height: 100%;
+    max-width: 1536px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: auto;
+    background-color:grey;
+}
+h1{
+    font-size:50px;
+    margin:auto;
+    color:white;
+}
