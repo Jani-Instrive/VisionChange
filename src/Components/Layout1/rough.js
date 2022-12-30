@@ -4,7 +4,9 @@ import './rough.css'
 
  const Rough2 = ({}) => {
   return (
-      <div>
+      <div 
+      // style={{maxWidth:"1536px",margin:'auto'}}
+      >
     <div className="FrootDiv">
       <div className="t1">
         The <div className="t2">only </div>

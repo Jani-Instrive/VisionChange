@@ -4,7 +4,7 @@ import FrameRoot from "./Components/FrameRoot"
 import Layout1 from './Components/Layout1/Layout1';
 import Layout2 from './Components/Layout2/Layout2';
 import Layout3 from './Components/Layout3/Layout3';
-import Rough2 from "./Components/Layout1/rough"
+import Rough from './Components/Rough'
 
 
 
@@ -13,9 +13,7 @@ function App() {
   document.body.style.margin = "0";
   return (
     <div className="App">
-      {/* <FrameRoot />
-      <Layout1/> */}
-      <Rough2/>
+     <Rough/>
     </div>
   );
 }
