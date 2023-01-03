@@ -1,5 +1,5 @@
-.Lay3HeroDiv {
-  width: 90vw;
+.Lay4HeroDiv {
+  width: 98vw;
   max-width: 1536px;
   position: relative;
   display: flex;
@@ -8,11 +8,13 @@
   align-self: stretch;
   align-items: center;
   margin: auto;
-  background-color: white;
   border-radius:20px;
+  /* bottom:8; */
+  background-image: linear-gradient(301deg, #1a1831 0%, #02383c 165%);
+
 }
 
-.Lay3LeftDiv {
+.Lay4LeftDiv {
   left: 0px;
   display: flex;
   flex-direction: column;
@@ -22,7 +24,7 @@
   padding: 30px 30px 30px 30px;
 }
 
-.Lay3RightDiv {
+.Lay4RightDiv {
   margin: auto;
   min-width: 200px;
   position: absolute;
@@ -34,7 +36,7 @@
   z-index: 1;
 }
 
-.Lay3-MainContainer {
+.Lay4-MainContainer {
   width: 100vw;
   height: 100vh;
   margin: auto;
@@ -48,7 +50,7 @@
   background-position: center;
   background-color: rgb(245, 245, 245);
 }
-.Lay3-MainContent {
+.Lay4-MainContent {
   display: flex;
   max-width: 1536px;
   flex-direction: row;
@@ -62,11 +64,11 @@
   margin: auto;
   color: #1a1831;
   font-size: 35px;
-  font-weight: 700;
+  font-weight: 550;
   font-family: Open Sans;
 }
 
-.lay3-IconDiv {
+.lay4-IconDiv {
   max-width: 1536px;
   position: relative;
   display: flex;
@@ -76,7 +78,7 @@
   align-items: flex-start;
   margin: auto;
 }
-.lay3-FlexColumn {
+.lay4-FlexColumn {
   gap: 0px;
   display: flex;
   flex-direction: column;
@@ -86,7 +88,7 @@
   padding: 10px 11.5px 9px 12px;
   border-width: 2px;
 }
-.Lay3-MainGroup {
+.Lay4-MainGroup {
   max-height: 864px;
   display: flex;
   flex-direction: row;
@@ -94,7 +96,7 @@
   border-radius: 20px;
   background-image: linear-gradient(301deg, #1a1831 0%, #02383c 165%);
 }
-.Lay3-RightContent {
+.Lay4-RightContent {
   margin: auto;
   position: absolute;
   right: 0px;
@@ -105,7 +107,7 @@
   background-size: cover;
   background-image: url("https://file.rendit.io/n/R3LHF7Vi6GhyJOT3wjZi.png");
 }
-.Lay3-LeftContent {
+.Lay4-LeftContent {
   margin: auto;
   max-width: 768px;
   left: 0px;
@@ -117,33 +119,33 @@
   text-align: left;
   z-index: 1;
 }
-.lay3-Image1 {
+.lay4-Image1 {
   max-width: 32.5px;
   height: 37px;
   color: Black;
 }
-.lay3-Image2 {
+.lay4-Image2 {
   max-width: 37px;
   height: 37px;
   color: Black;
 }
-.Lay3-Image3 {
+.Lay4-Image3 {
   width: 75.5px;
   height: 80px;
   left: 0px;
   top: 13px;
   position: absolute;
 }
-.lay3Paragraph {
-  max-width: 764px;
-  color: #1a1831;
+.lay4Paragraph {
+  max-width: 864px;
+  color: white;
   text-align: left;
   font-size: 30px;
   font-family: Open Sans;
   line-height: 50px;
 }
 
-.lay3-Group14 {
+.lay4-Group14 {
   height: 60px;
   gap: 5px;
   display: flex;
@@ -152,26 +154,27 @@
   align-items: center;
   margin: 0px 104px 0px 0px;
 }
-.Lay3-text1 {
+.Lay4-text1 {
   align-self: flex-end;
-  margin: 0px 3px 0px 0px;
+  /* margin: 0px 3px 0px 0px; */
+  margin:auto;
   color: #1a1831;
   font-size: 32px;
   font-family: Open Sans;
   white-space: nowrap;
 }
-.Lay3-line {
+.Lay4-line {
   max-width: 349px;
   height: 3px;
 }
-.Lay3-Idcard {
+.Lay4-Idcard {
   max-width: 36px;
   height: 36px;
   left: 12px;
   top: 12px;
   position: absolute;
 }
-.Lay3-FlexColumn2 {
+.Lay4-FlexColumn2 {
   height: 37px;
   gap: 0px;
   display: flex;
@@ -185,26 +188,26 @@
   border-style: solid;
   border-color: #02383c;
 }
-.Lay3-Image2 {
+.Lay4-Image2 {
   max-width: 37px;
   height: 37px;
 }
-.lay3img5 {
+.lay4img5 {
 }
-.Lay3-text2 {
-  max-width: 165px;
+.Lay4-text2 {
+  max-width: 410px;
   margin: 0px 97px 0px 0px;
   color: #1a1831;
   font-size: 32px;
   font-family: Open Sans;
 }
-.Lay3-text3 {
-  color: Black;
+.Lay4-text3 {
+    color: #1a1831;
   font-size: 32px;
   font-family: Open Sans;
   white-space: nowrap;
 }
-.Lay3-Group15 {
+.Lay4-Group15 {
   min-width: 60px;
   position: relative;
   gap: 0px;
@@ -221,23 +224,23 @@
   position: absolute;
 }
 
-.Lay3-text3 {
+.Lay4-text3 {
   color: #1a1831;
   font-size: 32px;
   font-family: Open Sans;
   white-space: nowrap;
 }
 
-.Element1Layout2 {
+/* .Element1Layout2 {
   display: contents;
   color: rgba(255, 255, 255, 0.3);
   font-size: 77px;
   font-weight: 700;
   font-family: Open Sans;
-}
+} */
 
 @media screen and (min-width: 280px) and (max-width: 600px) {
-  .Lay3-MainContainer {
+  .Lay4-MainContainer {
     width: 100vw;
     height: 100vh;
     border-radius: 0px;
@@ -246,30 +249,30 @@
     font-size: 20px;
     font-weight: 500;
   }
-  .Lay3HeroDiv {
+  .Lay4HeroDiv {
     height: 100%;
     width: 100%;
     border-radius: 0px;
   }
-  .Lay3LeftDiv {
+  .Lay4LeftDiv {
     min-height: 400px;
     width: 100vw;
     height: 100%;
     padding: 0px;
     border-radius: 0px;
   }
-  .lay3-IconDiv {
+  .lay4-IconDiv {
     display: none !important;
   }
-  .Lay3-FlexColumn5 {
+  .Lay4-FlexColumn5 {
     display: none !important;
   }
-  .Lay3RightDiv {
+  .Lay4RightDiv {
     width: 100%;
   }
-  .lay3Paragraph {
+  .lay4Paragraph {
     margin: auto;
-    font-size: 20px;
+    font-size: 18px;
     width: 95%;
     text-align: left;
     line-height: 35px;
@@ -278,7 +281,7 @@
 }
 
 @media screen and (min-width: 600px) and (max-width: 900px) {
-  .Lay3-MainContainer {
+  .Lay4-MainContainer {
     width: 100vw;
     height: 100vh;
   }
@@ -287,20 +290,20 @@
     font-size: 45px;
     font-weight: 500;
   }
-  .Lay3HeroDiv {
+  .Lay4HeroDiv {
     width: 100%;
     border-radius: 0px;
   }
-  .Lay3LeftDiv {
+  .Lay4LeftDiv {
     width: 100%;
   }
-  .lay3-IconDiv {
+  .lay4-IconDiv {
     display: none !important;
   }
-  .Lay3RightDiv {
+  .Lay4RightDiv {
     min-width: 90vw;
   }
-  .lay3Paragraph {
+  .lay4Paragraph {
     margin: auto;
     font-size: 30px;
     width: 90%;
@@ -311,40 +314,40 @@
 }
 
 @media screen and (min-width: 900px) and (max-width: 1200px) {
-  .Lay3-MainContainer {
+  .Lay4-MainContainer {
     width: 100vw;
     height: 98vh;
   }
 
-  .lay3-MainHeader {
+  .lay4-MainHeader {
     font-size: 30px;
     font-weight: 400;
   }
-  .Hero {
+  .Lay4HeroDiv {
     width: 90%;
   }
-  .Left {
+  .Lay4LeftDiv {
     width: 100%;
   }
 
-  .RightContainer {
+  .Lay4RightDiv {
     min-width: 90vw;
   }
-  .lay3Paragraph {
+  .lay4Paragraph {
     font-size: 25px;
     font-weight: 50;
     width: 80%;
     line-height: 30px;
     text-align: left;
   }
-  .lay3Paragraph1 {
+  .lay4Paragraph1 {
     font-size: 25px;
     font-weight: 50;
     width: 80%;
     line-height: 30px;
     text-align: left;
   }
-  .lay3Paragraph2 {
+  .lay4Paragraph2 {
     font-size: 25px;
     font-weight: 50;
     width: 80%;

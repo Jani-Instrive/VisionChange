@@ -1,25 +1,198 @@
-.Container {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 0px 100px;
+.Hero {
+  max-width: 1536px;
+  margin: auto;
+  min-width: 60vw;
+  position: relative;
+  display: flex;
+  left:0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  border-radius:20px;
+  background-image: linear-gradient(301deg, #1a1831 0%, #02383c 165%);
+}
+
+.Lay2Right {
+  /* margin: auto;
+  max-height: 90%;
+  min-width: 700px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content: flex-end;
+  background-size: cover;
+  background-image: url("https://file.rendit.io/n/R3LHF7Vi6GhyJOT3wjZi.png"); */
+  margin: auto;
+  max-height: 90vh;
+  min-width: 700px;
+  position: absolute;
+  right: 0px;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content: flex-end;
+  background-size: cover;
+  background-image: url("https://file.rendit.io/n/R3LHF7Vi6GhyJOT3wjZi.png");
+}
+.Left {
+
+  max-width: 864px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: space-between;
+  text-align:left;
+  z-index: 1;
+}
+
+
+
+.Lay2-MainContainer {
+width: 100vw;
+height: 100vh;
+margin: auto;
+position: relative;
+font-family: Open Sans;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+background-size: cover;
+background-position: center;
+    
   }
+  .Lay2-MainContent{
+    display: flex;
+    max-width: 1536px;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 20px;
+    background-image: linear-gradient(301deg, #1a1831 0%, #02383c 165%);
+  }
+ .lay2-MainHeader{
+  margin:auto;
+  font-size: 35px;
+  font-weight: 700;
+  font-family: Open Sans;
+ 
+ }
+
+ .lay2-IconDiv{
+  max-width: 1536px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: stretch;
+  align-items: flex-start;
+  margin: auto;
+ }
+ .lay2-FlexColumn{
+  gap: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0px 20px 0px 0px;
+  padding: 10px 11.5px 9px 12px;
+  border-width: 2px;
+
+ }
+ .Lay2-MainGroup{
+max-height: 864px;
+display: flex;
+flex-direction: row;
+justify-content: left;
+border-radius: 20px;
+background-image: linear-gradient(301deg, #1a1831 0%, #02383c 165%);
+ }
+ .Lay2-RightContent{
+  margin: auto;
+  position: absolute;
+  right: 0px;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content: flex-end;
+  background-size: cover;
+  border:1px solid red;
+  background-image: url("https://file.rendit.io/n/R3LHF7Vi6GhyJOT3wjZi.png");
+ }
+ .Lay2-LeftContent{
+  margin:auto;
+  max-width: 768px;
+  left: 0px;
+  gap:70px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: space-between;
+  text-align:left;
+  z-index: 1;
+
+ }
+ .lay2-Image1{
+  max-width: 32.5px;
+  height: 37px;
+  color:Black;
+ }
+ .lay2-Image2{
+  max-width: 37px;
+  height: 37px;
+    color: Black;
+ }
+ .Lay2-Image3{
+  width: 75.5px;
+  height: 80px;
+  left: 0px;
+  top: 13px;
+  position: absolute;
+ }
+ .Paragraph{
+  max-width: 864px;
+  color: #ffffff;
+  font-size: 25px;
+  font-family: Open Sans;
+  line-height: 45px;
+ }
+ .Paragraph1{
+  max-width: 864px;
+  color: #ffffff;
+  font-size: 25px;
+  font-family: Open Sans;
+  line-height: 45px;
+ }
+ .Paragraph2{
+  max-width: 864px;
+  align-self: flex-start;
+  color: #ffffff;
+  font-size: 25px;
+  font-family: Open Sans;
+  line-height: 45px;
+ }
+ .lay2-Group14{
+  height: 60px;
+  gap: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0px 104px 0px 0px;
+ }
+
   .createAndConsolidate {
-    margin: 0px 0px 63px 0px;
     font-size: 40px;
     font-weight: 700;
     font-family: Open Sans;
     white-space: nowrap;
   }
   .Block1 {
-    width: 1273px;
+    max-width: 1273px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin: 0px 0px 60px 0px;
   }
   .Block2 {
     height: 37px;
@@ -36,7 +209,7 @@
     border-color: #02383c;
   }
   .image1 {
-    width: 32.5px;
+    max-width: 32.5px;
     height: 37px;
   }
   .group14 {
@@ -46,9 +219,8 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    margin: 0px 104px 0px 0px;
   }
-  .text1 {
+  .Lay2-text1 {
     align-self: flex-end;
     margin: 0px 3px 0px 0px;
     color: #1a1831;
@@ -56,11 +228,23 @@
     font-family: Open Sans;
     white-space: nowrap;
   }
-  .line {
-    width: 349px;
+  .Lay2-line {
+    max-width: 349px;
     height: 3px;
   }
-  .flexColumn2 {
+.Lay2-Idcard{
+  max-width: 36px;
+  height: 36px;
+  left: 12px;
+  top: 12px;
+  position: absolute;
+}
+.NumberWithContent{
+display:flex;
+gap:25px;
+}
+
+  .Lay2-FlexColumn2 {
     height: 37px;
     gap: 0px;
     display: flex;
@@ -74,36 +258,54 @@
     border-style: solid;
     border-color: #02383c;
   }
+  .Lay2-Element2{
+    max-width: 89px;
+    height: 110px;
+    position: relative;
+    color: rgba(255, 255, 255, 0.1);
+    font-size: 77px;
+    font-weight: 700;
+    font-family: Open Sans;
+  }
   .image2 {
-    width: 37px;
+    max-width: 37px;
     height: 37px;
   }
-  .text2 {
-    width: 165px;
+  .lay2Image6{
+    max-width: 212px;
+    max-height: 500px;
+  }
+  .Lay2-text2 {
+    max-width: 165px;
     margin: 0px 97px 0px 0px;
     color: #1a1831;
     font-size: 32px;
     font-family: Open Sans;
   }
-  .group15 {
-    width: 60px;
+  .Lay2-text3 {
+    color: Black;
+    font-size: 32px;
+    font-family: Open Sans;
+    white-space: nowrap;
+  }
+  .Lay2-Group15 {
+    min-width: 60px;
     position: relative;
     gap: 0px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0px 20px 0px 0px;
   }
   .idcard {
-    width: 36px;
+    max-width: 36px;
     height: 36px;
     left: 12px;
     top: 12px;
     position: absolute;
   }
   .element7 {
-    width: 56px;
+    max-width: 56px;
     height: 56px;
     position: relative;
     border-width: 2px;
@@ -123,51 +325,52 @@
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    padding: 34px 34.8px 26px 30.3px;
     border-radius: 20px;
     background-image: linear-gradient(301deg, #1a1831 0%, #02383c 165%);
   }
   .flexColumn4 {
-    height: 100vh;
-    width:10%;
-    max-width:1536px;
+    max-height: 100vh;
+    min-width:10%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    padding: 3px 0px;
   }
-  .flexColumn5 {
-    width: 89px;
+  .Element1Layout2{
+    display: contents;
+    color: rgba(255, 255, 255, 0.3);
+    font-size: 77px;
+    font-weight: 700;
+    font-family: Open Sans;
+    
+  }
+
+  .Lay2-FlexColumn5 {
+    max-width: 1536px;
     position: relative;
-    gap: 0px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0px 0px 63px 0px;
-    padding: 0px 0px 0px 20.7px;
+    margin: 0px 0px 60px 0px;
+    padding: 0px 10px 0px 20.7px;
   }
   .flexColumn6 {
-    width: 89px;
     position: relative;
     gap: 0px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0px 0px 50px 0px;
-    padding: 0px 0px 0px 20.7px;
   }
   .flexColumn7 {
-    width: 89px;
+    max-width: 89px;
     position: relative;
     gap: 0px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0px 0px 0px 20.7px;
   }
   .flexRow2 {
     gap: 0.82px;
@@ -178,38 +381,16 @@
   }
   .flexColumn8 {
     height: 100vh;
-    width:50%
+    max-width:50%;
     gap: 40px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    padding: 16px 0px;
   }
-  .paragraph {
-    width: 666px;
-    color: #ffffff;
-    font-size: 24px;
-    font-family: Open Sans;
-    line-height: 50px;
-  }
-  .paragraph1 {
-    width: 666px;
-    color: #ffffff;
-    font-size: 24px;
-    font-family: Open Sans;
-    line-height: 55px;
-  }
-  .paragraph2 {
-    width: 620px;
-    align-self: flex-start;
-    color: #ffffff;
-    font-size: 24px;
-    font-family: Open Sans;
-    line-height: 55px;
-  }
+
   .flexColumn9 {
-    height: 522px;
+    max-height: 522px;
     gap: 0px;
     display: flex;
     flex-direction: column;
@@ -219,8 +400,189 @@
     background-size: cover;
     background-image: url("https://file.rendit.io/n/R3LHF7Vi6GhyJOT3wjZi.png");
   }
-  .image6 {
-    width: 212px;
-    height: 507px;
-  }
+  @media screen and (min-width: 280px) and (max-width: 600px) {
   
+    .Lay2-MainContainer {
+      width: 100vw;
+      height:100vh;
+    }
+    /* iframe{
+      width:100%;
+      height:60%;
+      margin:auto;
+    } */
+    .lay2-MainHeader{
+      font-size: 20px;
+      font-weight: 500;
+      /* padding-top: 70px; */
+    }
+    .SignTExt{
+      min-width: 168px;
+    }
+    .text9{
+      width: 150px;
+    }
+    .Hero {
+      height:100%;
+      width: 100%;
+      border-radius:0px;
+      padding-left:4px;
+    }
+    .Left {
+      min-height: 400px;
+      padding-left:5px;
+      padding-right:5px;
+      position: initial;
+    }
+    .lay2-IconDiv {
+      display: none !important;
+    }
+    .Lay2-FlexColumn5 {
+      display: none !important;
+    }
+    .Lay2Right {
+      /* min-width:  90vw; */
+      min-width: 700px;
+    }
+    .Paragraph {
+      /* font-size: 20px;
+      width: 100%;
+      text-align: left;
+      line-height: 35px; */
+      margin: auto;
+      font-size: 18px;
+      width: 100%;
+      text-align: left;
+      line-height: 30px;
+      color: white;
+    }
+    .Paragraph1 {
+      font-size: 20px;
+      width: 100%;
+      text-align: left;
+      line-height: 35px;
+    }
+    .Paragraph2 {
+      font-size: 20px;
+      width: 100%;
+      text-align: left;
+      line-height: 35px;
+    }
+  }
+
+  @media screen and (min-width: 600px) and (max-width: 900px) {
+  
+    .Lay2-MainContainer {
+      width: 100vw;
+      height:100vh;
+    }
+    /* iframe{
+      width:100%;
+      height:100%;
+      margin:auto;
+    } */
+    .lay2-MainHeader{
+      font-size: 40px;
+      font-weight: 500;
+      /* padding-top: 70px; */
+    }
+    .Hero {
+      width: 90%;
+      border-radius:10px;
+    }
+    .Left {
+      width: 100%;
+      height:90vh;
+    }
+    .lay2-IconDiv {
+      display: none !important;
+    }
+    .Lay2-FlexColumn5 {
+      display: none !important;
+    }
+    .Lay2Right {
+      min-width:  90vw;
+      /* height: calc(99vh - 150px); */
+      height:100vh;
+      /* padding-bottom:12px; */
+      /* ////border: 1px solid transparent; */
+    }
+    .Paragraph {
+      font-size: 30px;
+      font-weight: 50;
+      width: 80%;
+      line-height: 60px;
+      text-align: left;
+    }
+    .Paragraph1 {
+      font-size: 30px;
+      font-weight: 50;
+      width: 80%;
+      line-height: 60px;
+      text-align: left;
+    }
+    .Paragraph2 {
+      font-size: 30px;
+      font-weight: 50;
+      width: 80%;
+      line-height: 60px;
+      text-align: left;
+    }
+  }
+
+  
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+  
+  .Lay2-MainContainer {
+    /* ////border: 1px solid transparent; */
+    width: 100vw;
+    height:98vh;
+  }
+  /* iframe{
+    width:100%;
+    height:80%;
+    margin:auto;
+  } */
+  .lay2-MainHeader{
+    font-size: 30px;
+    font-weight: 400;
+    /* padding-top: 70px; */
+  }
+  .Hero {
+    width: 90%;
+  }
+  .Left {
+    width: 100%;
+    /* height: calc(99vh - 150px); */
+    /* height:100vh; */
+
+  }
+
+  .Lay2Right {
+    min-width:  90vw;
+    /* height: calc(99vh - 150px); */
+    /* ////border: 1px solid transparent; */
+  }
+  .Paragraph {
+    font-size: 25px;
+    font-weight: 50;
+    width: 80%;
+    line-height: 30px;
+    text-align: left;
+  }
+  .Paragraph1 {
+    font-size: 25px;
+    font-weight: 50;
+    width: 80%;
+    line-height: 30px;
+    text-align: left;
+  }
+  .Paragraph2 {
+    font-size: 25px;
+    font-weight: 50;
+    width: 80%;
+    line-height: 30px;
+    text-align: left;
+  }
+}
+

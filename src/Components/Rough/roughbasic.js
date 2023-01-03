@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import './rough.css'
 
- const Rough2 = ({}) => {
+ const Rough2 = () => {
   return (
       <div 
       // style={{maxWidth:"1536px",margin:'auto'}}
@@ -14,7 +14,7 @@ import './rough.css'
       </div>
       <div className="NewGDiv">
         <div className="t4">
-         1. Only remember<div className="t5"> a </div>
+         <div className="t5">1. Only remember a </div>
           <div className="t6">single</div>
           <div className="t5"> set of </div>
           <div className="t6">login</div>

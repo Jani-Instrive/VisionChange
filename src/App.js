@@ -4,7 +4,9 @@ import FrameRoot from "./Components/FrameRoot"
 import Layout1 from './Components/Layout1/Layout1';
 import Layout2 from './Components/Layout2/Layout2';
 import Layout3 from './Components/Layout3/Layout3';
-import Rough from './Components/Rough'
+import Rough2 from "./Components/Rough/roughbasic"
+import RoughCase2 from './Components/Layout3/RoughCase2';
+import RoughCase from "./Components/Layout2/RoughCase";
 
 
 
@@ -13,7 +15,13 @@ function App() {
   document.body.style.margin = "0";
   return (
     <div className="App">
-     <Rough/>
+      {/* <Layout1/> */}
+      {/* <RoughCase/> */}
+      <FrameRoot/>
+      <Layout2/>
+      <Layout3/>
+      <RoughCase2/>
+      
     </div>
   );
 }

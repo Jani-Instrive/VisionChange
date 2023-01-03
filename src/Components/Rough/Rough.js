@@ -2,21 +2,21 @@ import React from "react";
 import styled from "styled-components";
 import "./FrameRoot.css";
 import { Grid, Box, Typography, Button } from "@mui/material";
-import Navbar2 from "../Components/Navbar/Navbar2";
+import Navbar2 from "../Navbar/Navbar2";
 import { textAlign } from "@mui/system";
 
-const FrameRootRoot1 = ({}) => {
+const FrameRootRoot1 = () => {
   return (
     <Box
       sx={{
         height:"100vh",
       }}
     >
-      <Grid container spacing={2} sx={{ height: "100%" }}>
+      <Grid container spacing={2} sx={{ height: "100%"}}>
         <Grid
           item
           xs={12}
-          sx={{ height: "100%", position: "relative", mt:0, mb:0 }}
+          sx={{ height: "100%", position: "relative", mt:0, mb:0,margin:"auto" }}
         >
           <Box sx={{ display: "flex", justifyContent: "flex-end", height:"100%" }}>
             <iframe

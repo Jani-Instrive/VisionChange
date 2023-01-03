@@ -4,7 +4,7 @@ import "./FrameRoot.css"
 import { Grid } from "@mui/material";
 import Navbar2 from '../Components/Navbar/Navbar2';
 
-const FrameRootRoot1 = ({}) => {
+const FrameRootRoot1 = () => {
   return (
     <div className="FrameRootRootRoot">
     {/* <Navbar/> */}
